@@ -1,0 +1,58 @@
+@import  "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background: #f1f1f1;
+}
+.s-m {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+.s-m a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: #2c3e50;
+    color: #fff;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+.fcb:hover  {
+    background-color: #3b5998;;
+}
+.twt:hover {
+    background-color: #08a0e9;
+}
+.glg:hover {
+    background-color: #34a853;
+}
+.ytb:hover {
+    background-color: #ff0000;
+}
+.ins:hover {
+    background-color: #e4405f;
+}
+.s-m a i {
+    transition: 0.4s all;
+}
+.s-m a:hover > i {
+    transform: scale(1.6) rotate(25deg);
+}
+
+
+
+
+
+
+
+
+
